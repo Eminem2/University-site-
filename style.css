@@ -1,0 +1,473 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.Container {
+  margin: 0 auto;
+  }
+
+.Flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Flex2 {
+  display: flex;
+  align-items: center;
+}
+
+.Flex3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.Flex4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Flex5 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Flex6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Button {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: #fa5307;
+  padding: 20px 80px;
+  border: 4px solid #fff;
+  border-radius: 40px;
+}
+
+.vulitcya p {
+  text-shadow: #fa5307 0.05em 0.05em 0.05em;
+}
+
+#gerojphoto{
+  width: 338px;
+  height: 264px;
+}
+
+#top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.textgeroja {
+  text-shadow: #fa5307 0.04em 0.04em 0.04em;
+}
+
+.Card {
+  margin-top: 25px;
+  width: 338px;
+  height: 760px;
+  background-color: #e8e8e8;
+  border: 1px solid #a1a1a1;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.Card img {
+  border-radius: 25px 25px 0px 0px;
+}
+
+.Card h3 {
+  margin-top: 15px;
+}
+
+.Card p {
+  text-align: left;
+  color: #434343;
+  padding: 10px 30px 50px 30px;
+}
+
+.Card a {
+  padding: 10px 100px;
+  border: 0;
+}
+
+
+header {
+  height: 60px;
+}
+
+#logo img {
+  width: 128px;
+  height: 128px;
+}
+
+#check {
+  display: none;
+}
+
+label {
+  font-size: 3em;
+  position: fixed;
+  top: 5px;
+  right: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  list-style: none;
+  background-color: #343538;
+  height: 100vh;
+  position: fixed;
+  top: 60px;
+  right: -100%;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+#check:checked ~ ul {
+  right: 0;
+}
+
+nav ul li {
+  padding: 20px;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  height: 75vh;
+  background: url(img/thumb-1920-596242.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 2.5em;
+}
+
+main h2 {
+  font-size: 1em;
+  margin: 20px 0px 50px 0px;
+}
+
+#About {
+  padding: 50px 0px;
+  background: url(img/3985847.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#desAbout {
+  display: none;
+}
+
+#textAbout {
+  color: #fff;
+  padding: 0px 10px;
+  text-shadow: #fa5307 0.1em 0.1em 0.1em;
+}
+
+#textAbout h2 {
+  margin-bottom: 10px;
+}
+
+#onepage {
+  padding: 50px 10px;
+}
+
+#onepage h2 {
+  margin-bottom: 10px;
+}
+
+#onepage p {
+  margin-bottom: 25px;
+}
+
+#video iframe {
+  width: 340px;
+  height: 191px;
+  border: 0;
+}
+
+#Sujet {
+  padding: 50px 0px;
+  background: url(img/3985847.jpg);
+  background-size: cover;
+  background-position: center;
+  text-shadow: #fa5307 0.1em 0.1em 0.1em;
+}
+
+#textSujet {
+  color: #fff;
+  padding: 0px 10px;
+}
+
+#textSujet h2 {
+  margin-bottom: 10px;
+}
+
+#textSujet p {
+  margin-bottom: 40px;
+}
+
+#textSujet span {
+  display: none;
+}
+
+#qrcode {
+  display: none;
+}
+
+#Heroes {
+  padding: 50px 0px;
+}
+
+#Heroes h2 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#Watchit {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#Watchit a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+address {
+  padding: 35px 10px 50px 10px;
+  background: url(img/3985847.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+address a {
+  text-decoration: none;
+  color: #fff;
+}
+
+address img {
+  padding-top: 15px;
+}
+
+#iconeLocal {
+  display: none;
+}
+
+#hadyou {
+  margin: 30px 0px 15px 0px;
+}
+
+#googleMaps {
+  display: none;
+}
+
+footer {
+  padding: 50px 0px;
+  background-color: #343538;
+  font-size: 0.875em;
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.textuha {
+  text-shadow: #fa5307 0.05em 0.05em 0.05em;
+
+}
+
+#social {
+  margin-bottom: 25px;
+}
+
+@media (min-width: 576px) {
+  .Container {
+    max-width: 540px;
+  }
+
+  main h1,
+  main h2 {
+    text-shadow: #fa5307 0.05em 0.05em 0.05em;
+  }
+
+  #video iframe {
+    width: 560px;
+    height: 315px;
+    margin-left: 50px;
+    border-radius: 7%;
+  }
+
+  .Flex5 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #social {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+ 
+  .Container {
+    max-width: 720px;
+  }
+
+
+  main h1 {
+    font-size: 5.5em;
+  }
+
+  main h2 {
+    font-size: 2em;
+  }
+}
+
+
+@media (min-width: 992px) {
+ 
+  .Container {
+    max-width: 960px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+
+  .Container {
+    max-width: 1650px;
+  }
+
+ 
+  header {
+    height: 120px;
+  }
+
+  #logo img {
+    width: 190px;
+    height: 170px;
+    margin-top: 10px;
+  }
+
+  label {
+    display: none;
+  }
+
+  nav ul {
+    position: static;
+    height: auto;
+    background-color: transparent;
+    margin-top: 33px;
+  }
+
+  nav ul li {
+    float: left;
+    border: 0;
+  }
+
+  nav ul li a {
+    color: #343538;
+  }
+
+  nav ul li a:hover {
+    color: #c00000;
+  }
+
+
+  main {
+    height: 88vh;
+  }
+
+  #About {
+    background-attachment: fixed;
+  }
+
+  #desAbout{
+    display: inline;
+  }
+
+  #desAbout img {
+    border-radius: 7%;
+    margin-right: 50px;
+    width: 200px;
+    height: 275px;
+  }
+
+ 
+  .Flex3 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  
+  #Sujet {
+    background-attachment: fixed;
+  }
+
+  #qrcode {
+    display: inline;
+  }
+
+  #qrcode img {
+    width: 225px;
+    height: 225px;
+  }
+
+  
+  .Flex6 {
+    flex-direction: row-reverse;
+  }
+
+  address {
+    padding-top: 50px;
+  }
+
+  #iconeLocal {
+    display: inline;
+  }
+
+  #iconeMapa {
+    display: none;
+  }
+
+  #googleMaps {
+    display: inline;
+  }
+}
